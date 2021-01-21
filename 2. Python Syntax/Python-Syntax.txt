@@ -1,0 +1,39 @@
+Python Syntax
+Execute Python Syntax
+As we learned, Python syntax can be executed by writing directly in the Command Line:
+>>> print("Hello, World!")
+Hello, World!
+
+Or by creating a python file on the server, using the .py file extension, and running it in the Command Line:
+C:\Users\Your Name>python myfile.py
+
+Python Indentations
+Where in other programming languages the indentation in code is for readability only, in Python the indentation is very important.
+
+Python uses indentation to indicate a block of code.
+Example
+if 5 > 2:
+  print("Five is greater than two!")
+
+Python will give you an error if you skip the indentation:
+Example
+if 5 > 2:
+print("Five is greater than two!")
+
+Comments
+Python has commenting capability for the purpose of in-code documentation.
+Comments start with a #, and Python will render the rest of the line as a comment:
+Example
+Comments in Python:
+#This is a comment.
+print("Hello, World!")
+
+Docstrings
+Python also has extended documentation capability, called docstrings.
+Docstrings can be one line, or multiline.
+Python uses triple quotes at the beginning and end of the docstring:
+Example
+Docstrings are also comments:
+"""This is a
+multiline docstring."""
+print("Hello, World!")
